@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          TEST
+          Testing CI
         </a>
       </header>
     </div>
