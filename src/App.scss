@@ -12,21 +12,17 @@ body {
   color: var(--mainDark) var(--important);
   font-family: "Montserrat", sans-serif var(--important);
 }
-
 .text-tile {
   font-family: "Montserrat", sans-serif var(--important);
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
-
 .text-blue {
   color: var(--mainBlue);
 }
-
 .text-bright {
   color: var(--lightBlue);
 }
-
 .btn-black {
   background: transparent;
   text-transform: capitalize;
@@ -35,15 +31,12 @@ body {
   border-radius: 0 !important;
   border: 1px solid blue;
 }
-
 .btn-black:hover {
   background: var(--mainDark) !important;
   color: var(--mainWhite) !important;
 }
-
 .cart-icon {
   cursor: pointer;
   font-size: 1.2rem;
   color: var(--mainYellow);
 }
-/*# sourceMappingURL=App.css.map */
