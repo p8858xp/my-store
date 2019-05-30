@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import logo from "../logo.svg";
+import slam from "../SLAM.png";
 import styled from "styled-components";
 import { ButtonContainer } from "./Button";
 
@@ -9,12 +9,17 @@ class Navbar extends Component {
     return (
       <NavWrapper className="navbar navbar-expand-sm navbar-dark">
         <Link to="/">
-          <img src={logo} alt="store" className="navbar-brand" />
+          <img
+            src={slam}
+            alt="store"
+            className="navbar-brand"
+            style={{ width: 70 }}
+          />
         </Link>
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
             <Link to="/" className="nav-link">
-              products
+              Apparel
             </Link>
           </li>
         </ul>
@@ -23,7 +28,6 @@ class Navbar extends Component {
             <span className="mr-2">
               <i className="fas fa-cart-plus" />
             </span>
-            my cart
           </ButtonContainer>
         </Link>
       </NavWrapper>
@@ -34,10 +38,14 @@ class Navbar extends Component {
 export default Navbar;
 
 const NavWrapper = styled.nav`
-  background: var(--mainBlue);
+  background: transparent;
+  border: 2px solid white;
   .nav-link {
-    color: var(--mainWhite) var(--important);
+    color: grey !important
     font-size: 1.3rem;
     text-transform: capitalize;
+  }
+  .nav-link:hover{
+    color: #f27f11 !important;
   }
 `;

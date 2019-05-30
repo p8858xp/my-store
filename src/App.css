@@ -4,23 +4,18 @@
   --mainWhite: #f3f3f3;
   --mainDark: #232528;
   --mainYellow: #ffa400;
-  --important: !important;
 }
 
 body {
-  background-color: var(--mainWhite) var(--important);
-  color: var(--mainDark) var(--important);
-  font-family: "Montserrat", sans-serif var(--important);
+  background-color: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+  font-family: "Bangers", cursive !important;
 }
 
 .text-tile {
-  font-family: "Montserrat", sans-serif var(--important);
+  font-family: "Montserrat", sans-serif !important;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
-}
-
-.text-blue {
-  color: var(--mainBlue);
 }
 
 .text-bright {
@@ -33,17 +28,21 @@ body {
   font-size: 0.8rem !important;
   color: var(--mainDark);
   border-radius: 0 !important;
-  border: 1px solid blue;
+  border: 1px solid black;
 }
 
 .btn-black:hover {
-  background: var(--mainDark) !important;
-  color: var(--mainWhite) !important;
+  color: grey !important;
+  cursor: pointer;
 }
 
 .cart-icon {
   cursor: pointer;
   font-size: 1.2rem;
   color: var(--mainYellow);
+}
+
+.cart-icon:hover {
+  color: black;
 }
 /*# sourceMappingURL=App.css.map */
